@@ -52,7 +52,7 @@ class RestaurantList {
   #searchCrite = {};
   #searchData = [];
   constructor() {
-    this.#data = require("./db.json");
+    this.#data = require("../db.json");
   }
 
   #saveDB() {
